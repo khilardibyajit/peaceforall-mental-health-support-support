@@ -9,7 +9,7 @@ const buttonVariants = cva(
   {
     variants: {
       variant: {
-        default: "bg-primary text-primary-foreground hover:bg-primary/90",
+        default: "bg-primary text-primary-foreground hover:bg-primary/90 shadow-sm transition-all duration-300",
         destructive:
           "bg-destructive text-destructive-foreground hover:bg-destructive/90",
         outline:
@@ -18,6 +18,11 @@ const buttonVariants = cva(
           "bg-secondary text-secondary-foreground hover:bg-secondary/80",
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
+        // Solace Hub Custom Variants
+        emergency: "bg-destructive text-destructive-foreground hover:bg-destructive/90 shadow-[var(--shadow-emergency)] hover:shadow-[var(--shadow-emergency)] hover:scale-[1.02] transition-all duration-300 font-semibold",
+        gentle: "bg-primary text-primary-foreground hover:bg-primary-glow shadow-[var(--shadow-gentle)] hover:shadow-[var(--shadow-comfort)] hover:scale-[1.02] transition-all duration-300",
+        comfort: "bg-comfort text-comfort-foreground hover:bg-comfort/80 shadow-sm hover:shadow-md transition-all duration-300",
+        resource: "bg-card hover:bg-accent border border-border text-card-foreground hover:text-accent-foreground shadow-sm hover:shadow-md transition-all duration-300",
       },
       size: {
         default: "h-10 px-4 py-2",
