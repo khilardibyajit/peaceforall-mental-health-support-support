@@ -12,9 +12,9 @@ export const Header = () => {
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-3">
             <div className="w-8 h-8 bg-gradient-to-br from-primary to-primary-glow rounded-lg flex items-center justify-center">
-              <span className="text-primary-foreground font-bold text-sm">S</span>
+              <span className="text-primary-foreground font-bold text-sm">P</span>
             </div>
-            <h1 className="text-2xl font-bold text-foreground">Solace Hub</h1>
+            <h1 className="text-2xl font-bold text-foreground">Peace of Mind</h1>
           </div>
 
           <nav className="hidden md:flex items-center gap-8">

@@ -8,9 +8,9 @@ export const Footer = () => {
           <div>
             <div className="flex items-center gap-3 mb-4">
               <div className="w-8 h-8 bg-gradient-to-br from-primary to-primary-glow rounded-lg flex items-center justify-center">
-                <span className="text-primary-foreground font-bold text-sm">S</span>
+                <span className="text-primary-foreground font-bold text-sm">P</span>
               </div>
-              <h3 className="text-xl font-bold text-foreground">Solace Hub</h3>
+              <h3 className="text-xl font-bold text-foreground">Peace of Mind</h3>
             </div>
             <p className="text-muted-foreground text-sm leading-relaxed">
               Providing immediate access to emotional support and reliable mental health resources 
